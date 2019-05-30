@@ -226,51 +226,51 @@ h6 {
   margin: 20px 0 15px;
 }
 h1 {
-  font-size: 9px;
+  font-size: 18px;
 }
 @media (max-width: 767px) {
   h1 {
-    font-size: 5px;
+    font-size: 14px;
   }
 }
 h2 {
-  font-size: 7px;
+  font-size: 16px;
 }
 @media (max-width: 767px) {
   h2 {
-    font-size: 3px;
+    font-size: 12px;
   }
 }
 h3 {
-  font-size: 5px;
+  font-size: 14px;
 }
 @media (max-width: 767px) {
   h3 {
-    font-size: 1px;
+    font-size: 10px;
   }
 }
 h4 {
-  font-size: 3px;
+  font-size: 12px;
 }
 @media (max-width: 767px) {
   h4 {
-    font-size: -1px;
+    font-size: 8px;
   }
 }
 h5 {
-  font-size: 1px;
+  font-size: 10px;
 }
 @media (max-width: 767px) {
   h5 {
-    font-size: -3px;
+    font-size: 6px;
   }
 }
 h6 {
-  font-size: -1px;
+  font-size: 8px;
 }
 @media (max-width: 767px) {
   h6 {
-    font-size: -5px;
+    font-size: 4px;
   }
 }
 p {
@@ -939,10 +939,10 @@ pre .javascript .function {
 .btn {
   display: inline-block;
   padding: 0 20px;
-  font-size: 14px;
+  font-size: 10px;
   color: #555;
   background: #fff;
-  border: 2px solid #555;
+  border: 1px solid #555;
   text-decoration: none;
   border-radius: 2px;
   transition-property: background-color;
@@ -1496,7 +1496,7 @@ pre .javascript .function {
   font-size: 16px;
 }
 .posts-expand .post-meta {
-  margin: 3px 0 60px 0;
+  margin: 3px 0 15px 0;
   color: #999;
   font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 12px;
@@ -1546,7 +1546,7 @@ pre .javascript .function {
   }
 }
 .post-button {
-  margin-top: 40px;
+  margin-top: 15px;
 }
 .posts-expand .post-tags {
   margin-top: 40px;
@@ -1823,7 +1823,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #0efa39;
+  background: #5366e4;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2687,7 +2687,7 @@ pre .javascript .function {
 .content-wrap {
   float: right;
   box-sizing: border-box;
-  padding: 40px;
+  padding: 15px;
   width: calc(100% - 252px);
   background: #fff;
   min-height: 700px;
@@ -3006,7 +3006,7 @@ pre .javascript .function {
   border-radius: initial;
 }
 .post-block {
-  padding: 40px;
+  padding: 15px;
   background: #fff;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12);
   border-radius: initial;
@@ -3017,7 +3017,7 @@ pre .javascript .function {
   border-radius: initial;
 }
 .comments {
-  padding: 40px;
+  padding: 15px;
   margin: initial;
   margin-top: 12px;
   background: #fff;
@@ -3065,7 +3065,7 @@ pre .javascript .function {
   line-height: inherit;
 }
 .posts-expand .post-title {
-  font-size: 1.7em;
+  font-size: 1.3em;
 }
 .post-body h1 {
   font-size: 1.6em;
@@ -3090,33 +3090,33 @@ pre .javascript .function {
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .content-wrap {
-    padding: 10px;
+    padding: 3.75px;
   }
   .posts-expand {
     margin: initial;
   }
   .posts-expand .post-button {
-    margin-top: 20px;
+    margin-top: 7.5px;
   }
   .post-block {
-    padding: 20px;
+    padding: 7.5px;
     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12), 0 -1px 0.5px 0 rgba(0,0,0,0.09);
     border-radius: initial;
   }
   #posts > article + article .post-block {
-    margin-top: 10px;
+    margin-top: 3.75px;
   }
   .comments {
-    margin-top: 10px;
-    padding: 10px 20px;
+    margin-top: 3.75px;
+    padding: 3.75px 7.5px;
   }
   .pagination {
-    margin: 10px 0 0;
+    margin: 3.75px 0 0;
   }
 }
 @media (max-width: 767px) {
   .content-wrap {
-    padding: 8px;
+    padding: 3px;
   }
   .posts-expand {
     margin: initial;
@@ -3134,13 +3134,13 @@ pre .javascript .function {
     border-radius: initial;
   }
   #posts > article + article .post-block {
-    margin-top: 8px;
+    margin-top: 3px;
   }
   .comments {
-    margin-top: 8px;
+    margin-top: 3px;
     padding: 0 12px;
   }
   .pagination {
-    margin: 8px 0 0;
+    margin: 3px 0 0;
   }
 }
