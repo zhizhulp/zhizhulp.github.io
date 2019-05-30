@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title><![CDATA[Hexo、Hugo、Jekyll、Ghost的比较]]></title>
-    <url>%2F2019%2F05%2F28%2FHexo%E3%80%81Hugo%E3%80%81%20Jekyll%E3%80%81%20Ghost%20%E7%A9%B6%E7%AB%9F%E5%93%AA%E4%B8%AA%E7%94%A8%E7%9D%80%E6%9C%80%E8%88%92%E6%9C%8D%E5%91%A2%2F</url>
+    <url>%2F2019%2F05%2F28%2FHexo%E3%80%81Hugo%E3%80%81%20Jekyll%E3%80%81%20Ghost%E5%AF%B9%E6%AF%94%2F</url>
     <content type="text"><![CDATA[Hexo、Hugo、 Jekyll、 Ghost都是生成静态网站的框架。我们先来比较一下：（Github上4个框架的数据来自2019年5月28号） Github star数量 issues(open) issues(close) 语言 多语言 收费 Hexo 26.6k 196 2934 JavaScript 支持 不收 Hugo 35.4k 324 3367 Go 不确定 不收 Jekyll 37.8k 196 1934 Ruby 不确定 不收 Ghost 30.0k 82 5310 JavaScript 不确定 收 从表格可以看出（综合Github star和issues来看） 最活跃的框架是Ghost，没错，因为Ghost是收费的。对于一个只想玩玩的个人开发者来说，我并不建议使用Ghost来搭建个人博客。 Jekyll最受欢迎，并且免费。]]></content>
       <categories>
         <category>web</category>

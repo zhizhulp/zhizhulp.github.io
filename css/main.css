@@ -187,7 +187,7 @@ body {
   position: relative;
   font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 13px;
-  line-height: 2;
+  line-height: 1.6;
   color: #555;
   background: #eee;
 }
@@ -226,51 +226,51 @@ h6 {
   margin: 20px 0 15px;
 }
 h1 {
-  font-size: 22px;
+  font-size: 9px;
 }
 @media (max-width: 767px) {
   h1 {
-    font-size: 18px;
+    font-size: 5px;
   }
 }
 h2 {
-  font-size: 20px;
+  font-size: 7px;
 }
 @media (max-width: 767px) {
   h2 {
-    font-size: 16px;
+    font-size: 3px;
   }
 }
 h3 {
-  font-size: 18px;
+  font-size: 5px;
 }
 @media (max-width: 767px) {
   h3 {
-    font-size: 14px;
+    font-size: 1px;
   }
 }
 h4 {
-  font-size: 16px;
+  font-size: 3px;
 }
 @media (max-width: 767px) {
   h4 {
-    font-size: 12px;
+    font-size: -1px;
   }
 }
 h5 {
-  font-size: 14px;
+  font-size: 1px;
 }
 @media (max-width: 767px) {
   h5 {
-    font-size: 10px;
+    font-size: -3px;
   }
 }
 h6 {
-  font-size: 12px;
+  font-size: -1px;
 }
 @media (max-width: 767px) {
   h6 {
-    font-size: 8px;
+    font-size: -5px;
   }
 }
 p {
@@ -403,8 +403,8 @@ table {
   width: 100%;
   border-collapse: collapse;
   border-spacing: 0;
-  border: 1px solid #ddd;
-  font-size: 14px;
+  border: 1px solid #fc6423;
+  font-size: 12px;
   table-layout: fixed;
   word-wrap: break-all;
 }
@@ -424,12 +424,12 @@ td {
 }
 th,
 td {
-  border-bottom: 3px solid #ddd;
-  border-right: 1px solid #eee;
+  border-bottom: 3px solid #fc6423;
+  border-right: 1px solid #fc6423;
 }
 th {
   padding-bottom: 10px;
-  font-weight: 700;
+  font-weight: 600;
 }
 td {
   border-bottom-width: 1px;
@@ -907,16 +907,16 @@ pre .javascript .function {
 }
 .post-body .tabs ul.nav-tabs li.tab.active {
   border-top: 3px solid #fc6423;
-  border-left: 1px solid #ddd;
-  border-right: 1px solid #ddd;
+  border-left: 1px solid #fc6423;
+  border-right: 1px solid #fc6423;
   background-color: #fff;
 }
 @media (max-width: 413px) {
   .post-body .tabs ul.nav-tabs li.tab.active {
-    border-top: 1px solid #ddd;
+    border-top: 1px solid #fc6423;
     border-left: 3px solid #fc6423;
-    border-right: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #fc6423;
+    border-bottom: 1px solid #fc6423;
   }
 }
 .post-body .tabs ul.nav-tabs li.tab.active a {
@@ -927,7 +927,7 @@ pre .javascript .function {
   background-color: #fff;
 }
 .post-body .tabs .tab-content .tab-pane {
-  border: 1px solid #ddd;
+  border: 1px solid #fc6423;
   padding: 20px 20px 0 20px;
 }
 .post-body .tabs .tab-content .tab-pane:not(.active) {
@@ -1823,7 +1823,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #e4ff1d;
+  background: #0efa39;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2362,6 +2362,29 @@ pre .javascript .function {
 .site-uv::after {
   content: "|";
   padding-left: 10px;
+}
+#needsharebutton-postbottom {
+  position: relative;
+  cursor: pointer;
+  height: 26px;
+}
+#needsharebutton-postbottom .btn {
+  display: initial;
+  padding: 1px 4px;
+  border: 1px solid #555;
+  border-radius: 3px;
+}
+#needsharebutton-float {
+  position: fixed;
+  bottom: 38px;
+  left: -8px;
+  z-index: 9999;
+  cursor: pointer;
+}
+#needsharebutton-float .btn {
+  padding: 0 10px 0 14px;
+  border: 1px solid #555;
+  border-radius: 4px;
 }
 .page-archive .archive-page-counter {
   position: relative;
