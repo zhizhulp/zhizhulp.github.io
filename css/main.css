@@ -528,7 +528,7 @@ body {
 .header-inner {
   margin: 0 auto;
   padding: 100px 0 70px;
-  width: calc(100% - 20px);
+  width: calc(100% - 10px);
 }
 @media (min-width: 1200px) {
   .container .header-inner {
@@ -542,7 +542,7 @@ body {
 }
 .main-inner {
   margin: 0 auto;
-  width: calc(100% - 20px);
+  width: calc(100% - 10px);
 }
 @media (min-width: 1200px) {
   .container .main-inner {
@@ -560,7 +560,7 @@ body {
 .footer-inner {
   box-sizing: border-box;
   margin: 0px auto;
-  width: calc(100% - 20px);
+  width: calc(100% - 10px);
 }
 @media (min-width: 1200px) {
   .container .footer-inner {
@@ -1557,7 +1557,7 @@ pre .javascript .function {
   margin-left: 5px;
 }
 .posts-expand .post-meta {
-  margin: 3px 0 60px 0;
+  margin: 3px 0 20px 0;
   color: #999;
   font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 12px;
@@ -1852,7 +1852,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff28ff;
+  background: #adffbb;
 }
 .feed-link,
 .chat {
@@ -2389,7 +2389,7 @@ ul.breadcrumb li+li:last-child {
 .header {
   position: relative;
   margin: 0 auto;
-  width: calc(100% - 20px);
+  width: calc(100% - 10px);
 }
 @media (min-width: 1200px) {
   .header {
@@ -2444,7 +2444,7 @@ ul.breadcrumb li+li:last-child {
 .content-wrap {
   float: right;
   box-sizing: border-box;
-  padding: 40px;
+  padding: 20px;
   width: calc(100% - 252px);
   background: #fff;
   min-height: 700px;
@@ -2797,7 +2797,7 @@ ul.breadcrumb li+li:last-child {
   border-radius: initial;
 }
 .post-block {
-  padding: 40px;
+  padding: 20px;
   background: #fff;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12);
   border-radius: initial;
@@ -2808,7 +2808,7 @@ ul.breadcrumb li+li:last-child {
   border-radius: initial;
 }
 .comments {
-  padding: 40px;
+  padding: 20px;
   margin: auto;
   margin-top: 12px;
   background: #fff;
