@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[Hexo在Windows下的安装及配置]]></title>
     <url>%2F2019%2F05%2F31%2FHexo%E7%9A%84%E5%AE%89%E8%A3%85%E5%8F%8A%E9%85%8D%E7%BD%AE%2F</url>
-    <content type="text"><![CDATA[Hexo的安装安装Git下载git-for-windows，然后一步一步安装。 安装Node下载node，然后一步一步安装。 安装Hexo1npm install hexo-cli -g Hexo的配置Hexo的初始化1hexo init blog 1cd blog 1npm install Hexo的本地测试1hexo s Hexo部署首先在你的github新建一个仓库，名字必须威仓库名.githun.io。 打开blog根目录下的_config.yml文件，加入或修改成以下配置： deploy: type: git repo: git@github.com:仓库名/仓库名.github.io.git branch: master]]></content>
+    <content type="text"><![CDATA[Hexo的安装安装Git下载git-for-windows ，然后一步一步安装。 安装Node下载node ，然后一步一步安装。 安装Hexo1npm install hexo-cli -g Hexo的配置Hexo的初始化123hexo init blogcd blognpm install Hexo的本地测试1hexo s Hexo部署首先在你的github新建一个仓库，名字必须为仓库名.githun.io。打开blog根目录下的_config.yml文件，加入或修改成以下配置 1234deploy:type: gitrepo: git@github.com:仓库名/仓库名.github.io.gitbranch: master]]></content>
       <categories>
         <category>web</category>
       </categories>
