@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Jetpack学习-Lifecycles]]></title>
+    <url>%2F2019%2F06%2F03%2FJetpack%E5%AD%A6%E4%B9%A0-Lifecycles%2F</url>
+    <content type="text"><![CDATA[Lifecycle需要注意的地方： Event.ON_STOP 并不是随着Activity生命周期onStop()调用的，而是伴随着Activity生命周期中的onSaveInstanceState()。下面是demo中的log： 123456789101112131415//进入MainActivity2019-06-03 11:12:30.841 25153-25153/com.example.jetpackdemo D/MainActivity_LocationM: onCreate2019-06-03 11:12:30.922 25153-25153/com.example.jetpackdemo D/LocationM: create location manager2019-06-03 11:12:30.923 25153-25153/com.example.jetpackdemo D/MainActivity_LocationM: onStart2019-06-03 11:12:30.924 25153-25153/com.example.jetpackdemo D/LocationM: start locate2019-06-03 11:12:30.928 25153-25153/com.example.jetpackdemo D/MainActivity_LocationM: onResume//按home键/进入其他页面/按电源键/横竖屏切换（即app短暂进入后台）2019-06-03 11:12:37.423 25153-25153/com.example.jetpackdemo D/MainActivity_LocationM: onPause2019-06-03 11:12:37.767 25153-25153/com.example.jetpackdemo D/MainActivity_LocationM: onSaveInstanceState2019-06-03 11:12:37.767 25153-25153/com.example.jetpackdemo D/LocationM: stop locate2019-06-03 11:12:37.769 25153-25153/com.example.jetpackdemo D/MainActivity_LocationM: onStop//重新进入MainActivity2019-06-03 11:13:16.512 25153-25153/com.example.jetpackdemo D/MainActivity_LocationM: onStart2019-06-03 11:13:16.513 25153-25153/com.example.jetpackdemo D/LocationM: start locate2019-06-03 11:13:16.513 25153-25153/com.example.jetpackdemo D/MainActivity_LocationM: onResume]]></content>
+      <categories>
+        <category>Jetpack</category>
+      </categories>
+      <tags>
+        <tag>Android，Jetpack</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Hexo在Windows下的安装及配置]]></title>
     <url>%2F2019%2F05%2F31%2FHexo%E7%9A%84%E5%AE%89%E8%A3%85%E5%8F%8A%E9%85%8D%E7%BD%AE%2F</url>
-    <content type="text"><![CDATA[安装Git下载git-for-windows ，然后一步一步安装。 安装Node下载node ，然后一步一步安装。 安装Hexo1npm install hexo-cli -g Hexo的初始化123hexo init blogcd blognpm install Hexo的本地测试1hexo s Hexo部署首先在你的github新建一个仓库，名字必须为仓库名.githun.io。打开blog根目录下的_config.yml文件，加入或修改成以下配置 1234deploy:type: gitrepo: git@github.com:仓库名/仓库名.github.io.gitbranch: master]]></content>
+    <content type="text"><![CDATA[安装Git下载git-for-windows ，然后一步一步安装。 安装Node下载node ，然后一步一步安装。 安装Hexo1npm install hexo-cli -g Hexo的初始化123hexo init blogcd blognpm install Hexo的本地测试1hexo s Hexo部署首先在你的github新建一个仓库，名字必须为仓库名.github.io。打开blog根目录下的_config.yml文件，加入或修改成以下配置 1234deploy:type: gitrepo: git@github.com:仓库名/仓库名.github.io.gitbranch: master]]></content>
       <categories>
         <category>web</category>
       </categories>
