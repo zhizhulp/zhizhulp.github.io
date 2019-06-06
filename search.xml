@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[51武汉游]]></title>
+    <url>%2F2019%2F06%2F06%2F51%E6%AD%A6%E6%B1%89%E6%B8%B8%2F</url>
+    <content type="text"><![CDATA[(function(){var player = new DPlayer({"container":document.getElementById("dplayer0"),"theme":"#FADFA3","loop":true,"video":{"url":"/videos/20190504_132411.mp4","pic":"/images/wuhan/20190503_165947.jpg"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()]]></content>
+      <categories>
+        <category>旅游</category>
+      </categories>
+      <tags>
+        <tag>旅游</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[我为什么最终决定要写博客]]></title>
     <url>%2F2019%2F06%2F05%2F%E6%88%91%E4%B8%BA%E4%BB%80%E4%B9%88%E6%9C%80%E7%BB%88%E5%86%B3%E5%AE%9A%E8%A6%81%E5%86%99%E5%8D%9A%E5%AE%A2%2F</url>
     <content type="text"></content>
